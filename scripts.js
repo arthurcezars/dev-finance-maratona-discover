@@ -61,7 +61,7 @@ const Transaction = {
     },
 
     total() {
-        return Transaction.incomes + Transaction.expenses();
+        return Transaction.incomes() + Transaction.expenses();
     }
 
 }
